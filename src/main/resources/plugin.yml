@@ -1,0 +1,37 @@
+name: aetherisFreeze
+version: '1.0'
+main: fun.aqurik.aetherisFreeze.AetherisFreeze
+api-version: '1.21'
+prefix: [ Aetheris Freeze ]
+authors: [ aqurik13 ]
+description: сидим, бэймим
+website: https://google.cum
+commands:
+  freeze:
+    description: Заморозить человека
+    aliases:
+      - friz
+      - frez
+    permission: aetherisFreeze.freeze
+    permission-message: Нету прав :(
+  unfreeze:
+    description: Разморозить человека
+    aliases:
+      - unfriz
+      - unfrez
+    permission: aetherisFreeze.unfreeze
+    permission-message: Нету прав :(
+  follow:
+    description: Заставить человека следовать вас
+    aliases:
+      - followme
+    permission: aetherisFreeze.follow
+    permission-message: Нету прав :(
+  unfollow:
+    description: Заставить человека перестать следовать вас
+    aliases:
+      - unfollowme
+    permission: aetherisFreeze.unfollow
+    permission-message: Нету прав :(
+
+
